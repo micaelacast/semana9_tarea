@@ -1,0 +1,88 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #E19BAD;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-family: 'Palanquin', sans-serif;
+    background-image: url("images/background.jpg") repeat;
+
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Palanquin', sans-serif;
+}
+
+li a.active {
+    background-color: #8B6AC9;
+    color: white;
+    font-family: 'Palanquin', sans-serif;
+}
+
+li a:hover:not(.active) {
+    background-color: #D44C6F;
+    color: white;
+    font-family: 'Palanquin', sans-serif;
+}
+
+.body {
+    float: right;
+    margin-left: 350px;
+    margin-right: 170px;
+    margin-top: 20px;
+}
+
+.p {
+    text-align: justify;
+    font-family: 'Palanquin', sans-serif;
+    font-weight: 12px;
+    margin-top: -10px;
+}
+
+.profile {
+    margin-left: -70px;
+    border: white;
+    margin-top: 10px;
+    margin-bottom: -80px;
+}
+
+.h1 {
+    font-family: 'Cutive', serif;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-bottom: -10px;
+}
+
+
+.h2 {
+    font-family: 'Cutive', serif;
+    font-size: 25px;
+    color: #8B6AC9;
+    margin-top: 10px;
+
+}
+
+.h4 {
+    font-family: 'Palanquin', sans-serif;
+    margin-right: 10px;
+    font-size: 12px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-bottom: -70px;
+}
+
+.details {
+    font-family: 'Palanquin', sans-serif;
+}
+
+.h3 {
+    font-family: 'Palanquin', sans-serif;
+    font-weight: bold;
+}
